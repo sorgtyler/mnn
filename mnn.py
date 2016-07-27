@@ -8,8 +8,7 @@ import sys
 
 import numpy as np
 
-# TODO: Determine these hyper-parameters from the command line
-# Default definitions of hyper-parameters
+# Definitions of hyper-parameters
 _eta = 0.3  # learning rate 0 < _eta < 1
 _alpha = 0.3  # momentum 0 < _alpha < 1
 _lambda = 0  # weight decay if I get to it 0 < _lambda < 1
